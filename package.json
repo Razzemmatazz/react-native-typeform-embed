@@ -12,7 +12,7 @@
     "typeform",
     "embed"
   ],
-  "author": "Emma Sargent",
+  "author": "Harun Smrkovic",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ubdi/react-native-typeform-embed/issues"
@@ -20,7 +20,7 @@
   "homepage": "https://github.com/ubdi/react-native-typeform-embed#readme",
   "dependencies": {
     "prop-types": "^15.7.2",
-    "react": "16.13.1",
+    "react": "^17.0.2",
     "react-native-webview": "^11.13.0"
   }
 }
