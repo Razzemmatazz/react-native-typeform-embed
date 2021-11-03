@@ -44,7 +44,7 @@ class TypeformEmbed extends Component {
   onMessage = (event) => {
     const { onReady, onSubmit, onQuestionChanged, onClose } = this.props;
     const { data } = event.nativeEvent;
-    console.log('onMessage: ', data);
+
     switch (data) {
       case 'form-ready':
         return onReady();
