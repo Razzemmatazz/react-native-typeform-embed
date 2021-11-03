@@ -38,9 +38,9 @@ export const getTypeformUrl = (props) => {
   const baseUrl = `https://form.typeform.com/to/${props.id}`;
   const embedOptions = getEmbedOptions(props);
   const embedOptionsStr = embedOptions ? `?${embedOptions.join('&')}` : '';
-  const hiddenFields = Object.entries(props.hidden).map(
+  const hiddenFields = props.hidden ? Object.entries(props.hidden).map(
     ([key, value]) => `${key}=${value}`
-  );
+  ): [];
   const hiddenFieldsStr = hiddenFields.length
     ? `#${hiddenFields.join('&')}`
     : '';
