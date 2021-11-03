@@ -18,9 +18,11 @@
     "url": "https://github.com/ubdi/react-native-typeform-embed/issues"
   },
   "homepage": "https://github.com/ubdi/react-native-typeform-embed#readme",
+  "peerDependencies": {
+    "react": "^17.0.2",
+    "react-native-webview": ">=11"
+  },
   "dependencies": {
     "prop-types": "^15.7.2",
-    "react": "^17.0.2",
-    "react-native-webview": "^11.13.0"
   }
 }
