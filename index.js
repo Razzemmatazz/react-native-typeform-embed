@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { WebView } from 'react-native-webview';
-import { getTypeformUrl } from '../helpers';
+import { getTypeformUrl } from './helpers';
 
 class TypeformEmbed extends Component {
   injectedJavaScript = `
