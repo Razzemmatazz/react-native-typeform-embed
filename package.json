@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ubdi/react-native-typeform-embed.git"
+    "url": "git+https://github.com/Waitroom/react-native-typeform-embed.git"
   },
   "keywords": [
     "react-native",
@@ -15,9 +15,9 @@
   "author": "Harun Smrkovic",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ubdi/react-native-typeform-embed/issues"
+    "url": "https://github.com/Waitroom/react-native-typeform-embed/issues"
   },
-  "homepage": "https://github.com/ubdi/react-native-typeform-embed#readme",
+  "homepage": "https://github.com/Waitroom/react-native-typeform-embed#readme",
   "peerDependencies": {
     "react": "^17.0.2",
     "react-native-webview": ">=11"
